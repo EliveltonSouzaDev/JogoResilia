@@ -52,7 +52,8 @@ function historySasuke() {
 
         todosJuntos()
     } else if (lutar == 1) {
-        alert('Mesmo com todo esforço de Sasuke não foi possível vencer a batalha e acabou morrendo em batalha, pois com poucos guerreiros ao seu lado pouco pode fazer contra o poderoso Orochimaru')    }
+        alert('Mesmo com todo esforço de Sasuke não foi possível vencer a batalha e acabou morrendo em batalha, pois com poucos guerreiros ao seu lado pouco pode fazer contra o poderoso Orochimaru')  
+        alert('Você Perdeu!! volte ao inicio')  }
     else {
         alert('Digite um numero válido, 1 ou 2 são as opções.')
         
@@ -77,6 +78,8 @@ function historyNaruto() {
         todosJuntos()
     }  else if (lutar == 1) {
         alert('Como Naruto ficou no seu vilarejo aguardando seu irmão mais velho, todos da vila da folha foram derrotados e não foi possível vencer a batalha e muitos acabaram  morrendo em batalha e outros presos, pois sem um time organizado e estruturado para a batalha, pouco pode fazer contra o poderoso Orochimaru que acabou dominando a vila da folha')
+
+        alert('Você Perdeu!! volte ao inicio')  
     }
 
     else {
@@ -107,6 +110,8 @@ function historyHinata() {
         todosJuntos()
     }  else if (lutar == 1) {
         alert('Como Hinata decidiu lutar sozinha, mesmo com todo seu conhecimento no campo de batalha não foi possivel vencer a batalha pois com poucos guerreiros ao seu lado não foi possivel vencer e ela acabou morrendo.., pouco pode fazer contra o poderoso Orochimaru que acabou dominando a Vila da folha')
+
+        alert('Você Perdeu!! volte ao inicio')  
     }
 
     else {
@@ -134,6 +139,8 @@ function todosJuntos() {
     if (lutar == 2) {
 
         alert('Devido a cada um buscar vencer e fazer o nome individualmente, todos foram derrotados devido a a ambiçao por poder e pensar que resolveriam sozinho, logo pouco puderam fazer contra o poderoso Orochimaru que acabou eliminando a todos e dominando a Vila da folha');
+
+        alert('Você Perdeu!! volte ao inicio')  
 
     } else if (lutar == 1) {
         alert('Como todos decidiram se juntar a Hinata, a estrategia dela de ficar em um ponto mais alto da colina e proximo a floresta deu vantagem para eles conseguirem cercar e surpreender o inimigo, perdendo alguns companheiros, porém obteram exito e conseguiram vencer o inimigo graças a estratégia de Hinata')
