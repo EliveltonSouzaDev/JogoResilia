@@ -51,7 +51,7 @@ function historySasuke() {
     if (lutar == 2) {
 
         todosJuntos()
-    } else if (lutar == 1) {
+    } else if (lutar == 1){
         alert('Mesmo com todo esforço de Sasuke não foi possível vencer a batalha e acabou morrendo em batalha, pois com poucos guerreiros ao seu lado pouco pode fazer contra o poderoso Orochimaru')  
         alert('Você Perdeu!! volte ao inicio')  }
     else {
