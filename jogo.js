@@ -1,3 +1,4 @@
+
 // Após escolher o personagem inicia a função no botão
 
 function startSasuke() {
@@ -7,7 +8,7 @@ function startSasuke() {
         `Parabens por escolher o ${nome} da Vila Uchiha, agora vamos iniciar os treinamentos para nos tornamos grandes ninjas no futuro e reprensentar nossa aldeia, clique em ok para darmos inicio na nossa jornada ou cancelar para escolher outro ninja.`);
 
     if (confirmSasuke == true) {
-        historySasuke();
+        storySasuke();
     }
 }
 
@@ -19,7 +20,7 @@ function startNaruto() {
         `Parabens por escolher o ${nome} da Vila Uzumaki, agora vamos iniciar os treinamentos para nos tornamos grandes ninjas no futuro e reprensentar nossa aldeia, clique em ok para darmos inicio na nossa jornada ou cancelar para escolher outro ninja.`);
 
     if (confirmNaruto == true) {
-        historyNaruto()
+        storyNaruto()
     }
 }
 
@@ -30,7 +31,7 @@ function startHinata() {
         `Parabens por escolher o ${nome} da Vila Hyuga, agora vamos iniciar os treinamentos para nos tornamos grandes guerreiros(as) no futuro e representar nossa aldeia, clique em ok para darmos inicio na nossa jornada ou cancelar para escolher outro ninja.`);
 
     if (confirmHinata == true) {
-        historyHinata();
+        storyHinata();
     }
 }
 // Fim das inicializações
@@ -40,18 +41,22 @@ function startHinata() {
 
 // historia Sasuke---------
 
-function historySasuke() {
+document.append(storySasuke)
 
-    alert("Sasuke nunca conseguiu demonstrar o seu grande talento ele sempre esteve atrás dos seus companheiros de sala, muito desastrado e nunca conseguiu executar nenhum golpe secreto, coisa que seus amigos conseguiram com facilidade, mas isso está prestes a mudar com a nossa ajuda. clique em ok para embarcar na jornada.");
+function storySasuke() {
+
+    document.getElementById("campoTexto").innerHTML = "Sasuke nunca conseguiu demonstrar o seu grande talento ele sempre esteve atrás dos seus companheiros de sala, muito desastrado e nunca conseguiu executar nenhum golpe secreto, coisa que seus amigos conseguiram com facilidade, mas isso está prestes a mudar com a nossa ajuda. clique em ok para embarcar na jornada.";
 
     alert("Após a escolha de trabalhar junto com você passaram-se anos e Sasuke evoluiu muito e se transformou em um grande guerreiro, porém agora chegou a grande hora e o seu vilarejo está sendo atacado, clique em OK para prosseguir");
+   
 
     var lutar = prompt(" O primeiro vilarejo a ser atacada é o Uchiha de Sasuke, porém ele está sozinho pois os outros guerreiros tinha sido pegos desprevenidos, no ultimo momento aparece um mensageiro da Hinata solicitando sua presença no seu vilarejo, ele tem 2 opções ou 1- fica e tenta lutar sozinho , 2 foge e busca ajuda com os demais guerreiros tais como Naruto e Hinata");
 
     if (lutar == 2) {
 
-        todosJuntos()
+        alltogether()
     } else if (lutar == 1){
+
         alert('Mesmo com todo esforço de Sasuke não foi possível vencer a batalha e acabou morrendo em batalha, pois com poucos guerreiros ao seu lado pouco pode fazer contra o poderoso Orochimaru')  
         alert('Você Perdeu!! volte ao inicio')  }
     else {
@@ -66,7 +71,7 @@ function historySasuke() {
 
 // Inicio história Naruto-----
 
-function historyNaruto() {
+function storyNaruto() {
 
     alert("Naruto sempre tentou se comparar com seu irmão mais velho, que era muito habilidoso nas habilidades ninja e considerado um dos maiores guerreiros da atualidade, e ele sempre buscou ser melhor que ele, porém nunca obteve exito, mas isso está prestes a mudar, com a nossa ajuda podemos transformar ele no guerreiro que tanto almeja, clique em ok para embarcarmos nessa jornada");
 
@@ -75,7 +80,8 @@ function historyNaruto() {
     var lutar = prompt(" A primeira vilarejo a ser atacada é a Uchiha de Sasuke, porém a vilarejo Uzumaki estava preparando seu guerreiros para ir ao combate e ajudar Hinata na vilrejo Hyuga que será o próxima a ser atacado, já Naruto estava inseguro, pois estava sem o seu irmão mais velho que tinha viajado em uma missão secreta para a Vila Oculta da folha, Hinata enviou um mensageiro solicitando a ida de Naruto para seu vilarejo, ele tem 2 opções ou 1- fica e espera o seu irmão retornar , 2 vai para o vilarejo Hyuga se encontrar com Hinata");
 
     if (lutar == 2) {
-        todosJuntos()
+        alltogether()
+
     }  else if (lutar == 1) {
         alert('Como Naruto ficou no seu vilarejo aguardando seu irmão mais velho, todos da vila da folha foram derrotados e não foi possível vencer a batalha e muitos acabaram  morrendo em batalha e outros presos, pois sem um time organizado e estruturado para a batalha, pouco pode fazer contra o poderoso Orochimaru que acabou dominando a vila da folha')
 
@@ -94,7 +100,7 @@ function historyNaruto() {
 
 // inicio história Hinata---
 
-function historyHinata() {
+function storyHinata() {
 
 
     alert("Hinata sempre foi a maior promessa da sua vila sem muitos representantes fortes ela é a melhor aluna da classe, ela se destaca cada vez mais dia a dia, o futuro dela é promissor, porém não garantido, mas com nossa ajuda ela pode se tornar uma lenda. clique em ok para embarcarmos nessa jornada juntos");
@@ -107,7 +113,7 @@ function historyHinata() {
 
     if (lutar == 2) {
 
-        todosJuntos()
+        alltogether()
     }  else if (lutar == 1) {
         alert('Como Hinata decidiu lutar sozinha, mesmo com todo seu conhecimento no campo de batalha não foi possivel vencer a batalha pois com poucos guerreiros ao seu lado não foi possivel vencer e ela acabou morrendo.., pouco pode fazer contra o poderoso Orochimaru que acabou dominando a Vila da folha')
 
@@ -126,7 +132,7 @@ function historyHinata() {
 
 //inicio da história sincronizada-------
 
-function todosJuntos() {
+function alltogether() {
 
     alert('Como Hinata decidiu enviar os mensageiros, convocando Naruto, Sasuke e outros, eles atenderam o seu chamado e foram chegando aos poucos, o primeiro a chegar foi o Naruto, logo ao chegar Hinata o cumprimentou e foi passando sua estratégia e solicitando suas opniões para que formasse uma estratégia na batalha');
 
