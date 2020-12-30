@@ -97,8 +97,9 @@ body {
 }
 
 .buttons .btn img {
-    padding: 0;
-    margin-left: 5px;
+    padding: 3px;
+    margin-left: 3px;
+    width:40px;
 }
 
 
@@ -113,9 +114,15 @@ body {
     font-family: 'Courier New', Courier, monospace;
     border-radius:3px;
 
-
 }
 
+
+
+
+
+
+
+/* settings mobile */
 
 
 @media (max-width: 768px) {
