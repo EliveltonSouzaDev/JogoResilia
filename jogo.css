@@ -111,7 +111,6 @@ body {
     font-size: 19px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(255, 136, 25);
     border-radius:3px;
 
 
@@ -142,6 +141,7 @@ body {
         max-width: 45%;
         max-height: 50%;
         justify-content: space-between;
+        margin-left:25px;
     }
 
     .pictures {
@@ -166,17 +166,18 @@ body {
     .buttons {
         display: flex;
         flex-direction: column;
-        margin: 15px 10px 10px 30px;
+        margin: 15px 25px 10px 30px;
         padding: 15px;
         align-items: center;
+        max-width: 25%;
 
     }
 
     .buttons .btn {
         display: flex;
         margin: 40px 0 30px 30px;
-        width: 130px;
-        height: 20px;
+        width: 180%;
+        height: 80%;
         align-items: center;
         border-radius: 5px;
 
@@ -193,7 +194,7 @@ body {
 
     #campoTexto {
         display: flex;
-        max-width: 80%;
+        max-width: 70%;
         justify-content: center;
         align-items: center;
         margin-right: 0%;
