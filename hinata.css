@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+#fundo {
+
+    background: url("https://s.aficionados.com.br/imagens/conheca-hinata-hyuga-de-naruto_f.jpg") no-repeat bottom center scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    max-width: 70%;
+    margin: 0px 10px 50px 10px;
+    color: rgb(156, 12, 12);
+    background-color: salmon;
+    font-size: 24px;
+}
+
+body {
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+#divResultado {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 50px 50px 80px 50px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 3px;
+    background: #3401A0;
+    color: lightgrey;
+    text-align:start;
+}
+
+#result {
+    display: flex;
+    padding: 20px;
+}
+
+#btn-container {
+    display: flex;
+    margin-left: 15%;
+}
+
+.btnEnviar {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:lightgray;
+}
+
+button {
+    flex-direction: row;
+    margin: 20px 20px 20px 80px;
+    font-weight: bold;
+    padding: 30px;
+    background-color: lightgray;
+    border-radius: 6px;
+    color: rgba(20, 19, 19, 0.979);
+}
+
+button:hover {
+    background: #B847ED;
+}
+
+
+.img{
+
+    width: 250px;
+    height: 250px;
+    margin-left: 25%;
+    padding: 5px;
+}
+
+
+/* mobile */
+
+@media (max-width: 768px) {
+
+    #fundo {
+        display: flex;
+        background-size: 150%;
+        max-width: 100%;
+        flex-direction: column;
+        background-image: url('https://i.pinimg.com/originals/4d/51/d8/4d51d8e36ba1cb170dcb61343025e6b7.jpg');
+        background-repeat: repeat;
+
+    }
+
+    #divResultado {
+        margin: 15% auto;
+        padding: 0;
+        width: 95%;
+    }
+
+    #result {
+        display: flex;
+        align-items: center;
+    }
+
+    #btn-container {
+        display: flex;
+        max-width: 90%;
+        flex-direction: column;
+        align-items: center;
+        padding: 10%;
+        margin-top: 10%;
+    }
+
+    button {
+        display: flex;
+        margin: 10% 45% 15% 10%;
+        padding: 18%;
+
+    }
+    .img{
+        width: 250px;
+        height: 250px;
+        margin-left: 10%;
+        padding: 2px;
+    }
+
+}
