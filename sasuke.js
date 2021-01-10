@@ -11,6 +11,8 @@ function remover(id) {
     removed.remove();
 }
 
+// criação de botoes
+
 function createButton() {
 
     var teste4 = document.createElement("button");
@@ -79,11 +81,14 @@ function createButton3() {
 
 }
 
-function desistir() {
-    document.getElementById("divResultado").innerText = 'Atualize a pagina e reinicie o jogo'
-
-    remover("btn");
-    remover("btn-2")
+function btnRestart(){
+    var teste3 = document.createElement("button");
+    teste3.innerText = "RESTART GAME";
+    document.getElementById("btn-container").appendChild(teste3);
+    teste3.addEventListener("click", function(){
+        onclick = window.location.href='index.html';
+    });
+    teste3.setAttribute("id", "btn-2");
 }
 
 // funções referentes a história
@@ -105,12 +110,22 @@ function begin() {
 
 }
 
+function desistir() {
+    document.getElementById("divResultado").innerText = 'Clique no botão e reinicie o jogo'
+
+    remover("btn");
+    remover("btn-2")
+    btnRestart();
+}
+
 function ficar() {
     document.getElementById("divResultado").innerText =
         "Mesmo com todo esforço de Sasuke não foi possível vencer a batalha e acabou morrendo em batalha, pois com poucos guerreiros ao seu lado pouco pode fazer contra o poderoso Orochimaru, Você Perdeu!! volte ao inicio";
 
         remover("btn");
         remover("btn-2")
+        btnRestart();
+        imageLose();
 
 }
 
@@ -160,7 +175,6 @@ function guerra(){
 
 }
 
-
 function fim(){
 
     template();
@@ -177,16 +191,29 @@ function fim(){
     remover("btn");
     remover("btn-2")
     
-    image();
+    imageWin();
 }
 
 
-// imagem adicionada ao final
-function image() {
+// imagem adicionada ao final caso ganhe
+function imageWin() {
 
     var img = document.createElement("IMG");
     img.src = "https://image.freepik.com/free-vector/you-win-sign-pop-art-style_175838-498.jpg";
     img.className = "img"
+  
+    document.querySelector('body').appendChild(img);
+
+    btnRestart();
+
+}
+
+// imagem adicionada ao final caso perca
+function imageLose() {
+
+    var img = document.createElement("IMG");
+    img.src = "https://media0.giphy.com/media/eJ4j2VnYOZU8qJU3Py/giphy_s.gif";
+    img.className = "img2"
   
     document.querySelector('body').appendChild(img);
 

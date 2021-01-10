@@ -39,7 +39,7 @@ p {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    margin: 120px 50px 80px 50px;
+    margin: 40px 50px 35px 50px;
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
@@ -57,7 +57,7 @@ p {
 
 #btn-container {
     display: flex;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .btnEnviar {
@@ -88,8 +88,16 @@ button:hover {
 
     width: 250px;
     height: 250px;
-    margin-left: 25%;
+    margin-left: 13%;
     padding: 5px;
+}
+
+.img2{
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 2% 15%;
+    padding: 2px;
 }
 
 
@@ -124,7 +132,8 @@ button:hover {
         flex-direction: column;
         align-items: center;
         padding: 10%;
-        margin-top: 10%;
+        margin: 10% 0 0 20%;
+        
     }
 
     button {
@@ -137,8 +146,16 @@ button:hover {
         align-items: center;
         width: 250px;
         height: 250px;
-        margin: 0 auto;
-        padding: 1px;
+        margin: auto;
+        padding: 2px;
+    }
+
+    .img2{
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        padding: 2px;
     }
 
 }
