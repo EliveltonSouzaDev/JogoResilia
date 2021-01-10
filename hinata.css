@@ -108,7 +108,7 @@ button:hover {
     }
 
     #divResultado {
-        margin: 15% auto;
+        margin: 10% auto;
         padding: 0;
         width: 95%;
     }
@@ -134,10 +134,12 @@ button:hover {
 
     }
     .img{
+        align-items: center;
         width: 250px;
         height: 250px;
-        margin-left: 10%;
+        margin: auto;
         padding: 2px;
     }
 
+   
 }

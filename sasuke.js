@@ -31,14 +31,14 @@ function createButton() {
 function createButton1() {
 
     var bt1 = document.createElement("button"); // cria o botão
-    bt1.innerText = "Fugir e buscar ajuda"; // nomeia o botão
+    bt1.innerText = "FUGIR E BUSCAR AJUDA"; // nomeia o botão
     document.getElementById("btn-container").appendChild(bt1); // coloca o elemento criado dentro de uma DIV
     bt1.setAttribute("onclick", "fugir2()"); // parâmetros para o botão
     bt1.setAttribute("id", "btn"); //coloca um id no elemento criado
 
 
     var bt2 = document.createElement("button"); // cria o botão
-    bt2.innerHTML = "ficar e lutar sozinho"; // nomeia o botão
+    bt2.innerHTML = "FICAR E LUTAR SOZINHO"; // nomeia o botão
     document.getElementById("btn-container").appendChild(bt2); // coloca o elemento criado dentro de uma DIV
     bt2.setAttribute("onclick", "ficar()"); // parâmetros para o botão
     bt2.setAttribute("id", "btn-2"); //coloca um id no elemento criado
@@ -48,14 +48,14 @@ function createButton1() {
 function createButton2() {
 
     var teste4 = document.createElement("button");
-    teste4.innerText = "lutar com o grupo";
+    teste4.innerText = "LUTAR COM O GRUPO";
     document.getElementById("btn-container").appendChild(teste4);
     teste4.addEventListener("click", fim);
     teste4.setAttribute("id", "btn");
 
 
     var teste3 = document.createElement("button");
-    teste3.innerText = "lutar sozinho";
+    teste3.innerText = "LUTAR SOZINHO";
     document.getElementById("btn-container").appendChild(teste3);
      teste3.addEventListener("click", ficar);
     teste3.setAttribute("id", "btn-2");
@@ -65,14 +65,14 @@ function createButton2() {
 function createButton3() {
 
     var txt2 = document.createElement("button");
-    txt2.innerText = "Continuar";
+    txt2.innerText = "CONTINUAR";
     document.getElementById("btn-container").appendChild(txt2);
     txt2.addEventListener("click", guerra);
     txt2.setAttribute("id", "btn");
 
 
     var txt3 = document.createElement("button");
-    txt3.innerText = "desistir";
+    txt3.innerText = "DESISTIR";
     document.getElementById("btn-container").appendChild(txt3);
     txt3.addEventListener("click", desistir);
     txt3.setAttribute("id", "btn-2");

@@ -1,32 +1,4 @@
-/*var radio1 = document.getElementById('radio1');
-var radio2  = document.getElementById('radio2');
-var radio3 = document.getElementById('radio3');
 
-var submit = document.getElementById('input');
-submit.addEventListener("click",enviar);
-
-function enviar() {
-    var fundo = document.getElementById('body');
-
-    if (radio1.checked == true) {
-        document.body.style.backgroundImage = "url('https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2020/05/legiao_9oHhigX5s3P0.jpg.jpeg')";       
-         console.log('preto')
-
-    }
-
-    if (radio2.checked == true) {
-        document.body.style.backgroundImage = "url('img_tree.png')";       
-        console.log('preto')
-
-    }
-
-    if (radio3.checked == true) {
-
-        document.body.style.backgroundImage = "url('img_tree.png')";       
-        console.log('preto')
-
-    }
-}*/
 
 function enviar(fundo) {
 switch (fundo) {
