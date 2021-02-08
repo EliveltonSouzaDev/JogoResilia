@@ -11,7 +11,7 @@ function remover(id) {
     removed.remove();
 }
 
-// criação de botoes
+// criação de botoes 
 function createButton() {
 
     var bt4 = document.createElement("button");

@@ -11,9 +11,5 @@ switch (fundo) {
     case 'hinata':document.body.style.background = "url('https://www.osmais.com/wallpapers/201410/hinata-hyuuga-wallpaper.jpg') no-repeat ";
     break
 
-    
-
-
-
 }
 }
