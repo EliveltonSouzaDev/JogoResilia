@@ -85,7 +85,7 @@ function btnRestart(){
     teste3.innerText = "RESTART GAME";
     document.getElementById("btn-container").appendChild(teste3);
     teste3.addEventListener("click", function(){
-        onclick = window.location.href='index.html';
+        onclick = window.location.href='../index.html';
     });
     teste3.setAttribute("id", "btn-2");
 }
