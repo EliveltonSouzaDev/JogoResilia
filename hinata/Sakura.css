@@ -9,7 +9,7 @@
 
 #fundo {
 
-    background: url("https://cdn.hipwallpaper.com/i/85/14/vk1fpZ.jpg") no-repeat bottom center scroll;
+    background: url("https://wallpapercave.com/wp/KjbKNN3.jpg") no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -81,6 +81,7 @@ button {
 
 button:hover {
     background: #B847ED;
+    color:white;
 }
 
 
@@ -107,10 +108,10 @@ button:hover {
 
     #fundo {
         display: flex;
-        background-size: 150%;
+        background-size: 100%;
         max-width: 100%;
         flex-direction: column;
-        background-image: url('https://i.pinimg.com/originals/4d/51/d8/4d51d8e36ba1cb170dcb61343025e6b7.jpg');
+        background-image: url('https://s2.glbimg.com/eGn_HY4wtNRBoZbd-sozTienfS4=/0x600/s.glbimg.com/po/tt2/f/original/2014/09/11/a7e09f4f012d07cf12313b075c91.jpeg');
         background-repeat: repeat;
 
     }

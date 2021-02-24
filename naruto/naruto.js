@@ -136,7 +136,7 @@ function fugir() {
 
     var teste3 = document.createElement("p");
     teste3.innerText =
-        " A primeira vilarejo a ser atacada é a Uchiha de Sasuke, porém a vilarejo Uzumaki estava preparando seu guerreiros para ir ao combate e ajudar Hinata na vilrejo Hyuga que será o próxima a ser atacado, já Naruto estava inseguro, pois estava sem o seu irmão mais velho que tinha viajado em uma missão secreta para a Vila Oculta da folha, Hinata enviou um mensageiro solicitando a ida de Naruto para seu vilarejo, ele tem 2 opções ou 1- fica e espera o seu irmão retornar , 2 vai para o vilarejo Hyuga se encontrar com Hinata";
+        " A primeira vilarejo a ser atacada é a Uchiha de Sasuke, porém a vilarejo Uzumaki estava preparando seu guerreiros para ir ao combate e ajudar Sakura na vilrejo Hyuga que será o próxima a ser atacado, já Naruto estava inseguro, pois estava sem o seu irmão mais velho que tinha viajado em uma missão secreta para a Vila Oculta da folha, Sakura enviou um mensageiro solicitando a ida de Naruto para seu vilarejo, ele tem 2 opções ou 1- fica e espera o seu irmão retornar , 2 vai para o vilarejo Hyuga se encontrar com Sakura";
 
     document.getElementById("divResultado").appendChild(teste3);
     teste3.setAttribute("id", "result");
@@ -152,7 +152,7 @@ function fugir2() {
     var teste5 = document.createElement("p");
 
     teste5.innerText =
-        "Como Hinata decidiu enviar os mensageiros, convocando Naruto, Sasuke e outros, eles atenderam o seu chamado e foram chegando aos poucos, o primeiro a chegar foi o Naruto, logo ao chegar Hinata o cumprimentou e foi passando sua estratégia e solicitando suas opniões para que formasse uma estratégia na batalha"
+        "Como Sakura decidiu enviar os mensageiros, convocando Naruto, Sasuke e outros, eles atenderam o seu chamado e foram chegando aos poucos, o primeiro a chegar foi o Naruto, logo ao chegar Sakura o cumprimentou e foi passando sua estratégia e solicitando suas opniões para que formasse uma estratégia na batalha"
 
     document.getElementById("divResultado").appendChild(teste5);
     teste5.setAttribute("id", "result");
@@ -168,7 +168,7 @@ function guerra(){
     var txt = document.createElement("p");
 
     txt.innerText =
-        "Hinata criou a estratégia e todos foram para o campo de batalha, porém com muitos lideres todos queria ter protagonismo, e se eles terminassem vitoriosos provavelmente que liderou se tornaria o líder de todos os vilarejos, agora todos prontos para a batalha Naruto e Sasuke tem 2 opções, lutar de acordo com as orientações da Hinata ou cada um tentar individualmente lutar diretamente contra Orochimaru."
+        "Sakura criou a estratégia e todos foram para o campo de batalha, porém com muitos lideres todos queria ter protagonismo, e se eles terminassem vitoriosos provavelmente que liderou se tornaria o líder de todos os vilarejos, agora todos prontos para a batalha Naruto e Sasuke tem 2 opções, lutar de acordo com as orientações da Sakura ou cada um tentar individualmente lutar diretamente contra Orochimaru."
 
     document.getElementById("divResultado").appendChild(txt);
     txt.setAttribute("id", "result");
@@ -184,7 +184,7 @@ function fim(){
     var txt = document.createElement("p");
 
     txt.innerText =
-        "Como todos decidiram se juntar a Hinata, a estrategia dela de ficar em um ponto mais alto da colina e proximo a floresta deu vantagem para eles conseguirem cercar e surpreender o inimigo, perdendo alguns companheiros, porém obteram exito e conseguiram vencer o inimigo graças a estratégia de Hinata e o trabalho em equipe de todos os integrantes se destacando Naruto e Sasuke"
+        "Como todos decidiram se juntar a Sakura, a estrategia dela de ficar em um ponto mais alto da colina e proximo a floresta deu vantagem para eles conseguirem cercar e surpreender o inimigo, perdendo alguns companheiros, porém obteram exito e conseguiram vencer o inimigo graças a estratégia de Sakura e o trabalho em equipe de todos os integrantes se destacando Naruto e Sasuke"
 
     document.getElementById("divResultado").appendChild(txt);
     txt.setAttribute("id", "result");

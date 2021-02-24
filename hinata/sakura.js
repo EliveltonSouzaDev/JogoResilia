@@ -98,7 +98,7 @@ function begin(){
 
     var teste2 = document.createElement("p");
     teste2.innerText =
-         "Após a escolha de trabalhar junto com você passaram-se anos e Hinata muito habilidosa ganhou diversos torneios e outra coisa que ela era muito boa era sobre estrategias de guerras e como aproveitar ao máximo os guerreiros ao seu redor, direcionando cada um no campo de batalha estrategicamente conforme as habilidades de seus guerreiros, clique em continuar";
+         "Após a escolha de trabalhar junto com você passaram-se anos e Sakura muito habilidosa ganhou diversos torneios e outra coisa que ela era muito boa era sobre estrategias de guerras e como aproveitar ao máximo os guerreiros ao seu redor, direcionando cada um no campo de batalha estrategicamente conforme as habilidades de seus guerreiros, clique em continuar";
 
     document.getElementById("divResultado").appendChild(teste2);
     teste2.setAttribute("id", "result");
@@ -120,7 +120,7 @@ function desistir() {
 
 function ficar(){
     document.getElementById("divResultado").innerText =
-        "Como Hinata decidiu lutar sozinha, mesmo com todo seu conhecimento no campo de batalha não foi possivel vencer a batalha pois com poucos guerreiros ao seu lado não foi possivel vencer e ela acabou morrendo.., pouco pode fazer contra o poderoso Orochimaru que acabou dominando a Vila da folha, Você Perdeu!! volte ao inicio";
+        "Como Sakura decidiu lutar sozinha, mesmo com todo seu conhecimento no campo de batalha não foi possivel vencer a batalha pois com poucos guerreiros ao seu lado não foi possivel vencer e ela acabou morrendo.., pouco pode fazer contra o poderoso Orochimaru que acabou dominando a Vila da folha, Você Perdeu!! volte ao inicio";
 
         remover("btn");
         remover("btn-2")
@@ -136,7 +136,7 @@ function fugir(){
 
     var teste3 = document.createElement("p");
     teste3.innerText =
-        " A primeira vilarejo a ser atacada é a Uchiha de Sasuke, após ficar sabendo do ataque , Hinata imediatamente convocou os guerreiros do seu vilarejo para traçar uma estratégia de defesa, o seu vilarejo tinha uma vantagem em comparação aos outros devido a áreas montanhosas e florestas, local onde poderiam surpreender seus oponentes, 1 - ela tem uma escolha aguardar o ataque e tentar com seus guerreiros lutar ou 2 - enviar mensageiro para outros vilarejos se juntarem a ela contando a sua estratégia. ";
+        " A primeira vilarejo a ser atacada é a Uchiha de Sasuke, após ficar sabendo do ataque , Sakura imediatamente convocou os guerreiros do seu vilarejo para traçar uma estratégia de defesa, o seu vilarejo tinha uma vantagem em comparação aos outros devido a áreas montanhosas e florestas, local onde poderiam surpreender seus oponentes, 1 - ela tem uma escolha aguardar o ataque e tentar com seus guerreiros lutar ou 2 - enviar mensageiro para outros vilarejos se juntarem a ela contando a sua estratégia. ";
 
     document.getElementById("divResultado").appendChild(teste3);
     teste3.setAttribute("id", "result");
@@ -152,7 +152,7 @@ function fugir2(){
     var teste5 = document.createElement("p");
 
     teste5.innerText =
-        "Como Hinata decidiu enviar os mensageiros, convocando Naruto, Sasuke e outros, eles atenderam o seu chamado e foram chegando aos poucos, o primeiro a chegar foi o Naruto, logo ao chegar Hinata o cumprimentou e foi passando sua estratégia e solicitando suas opniões para que formasse uma estratégia na batalha"
+        "Como Sakura decidiu enviar os mensageiros, convocando Naruto, Sasuke e outros, eles atenderam o seu chamado e foram chegando aos poucos, o primeiro a chegar foi o Naruto, logo ao chegar Sakura o cumprimentou e foi passando sua estratégia e solicitando suas opniões para que formasse uma estratégia na batalha"
 
     document.getElementById("divResultado").appendChild(teste5);
     teste5.setAttribute("id", "result");
@@ -168,7 +168,7 @@ function guerra(){
     var txt = document.createElement("p");
 
     txt.innerText =
-        "Hinata criou a estratégia e todos foram para o campo de batalha, porém com muitos lideres todos queria ter protagonismo, e se eles terminassem vitoriosos provavelmente que liderou se tornaria o líder de todos os vilarejos, agora todos prontos para a batalha Naruto e Sasuke tem 2 opções, lutar de acordo com as orientações da Hinata ou cada um tentar individualmente lutar diretamente contra Orochimaru."
+        "Sakura criou a estratégia e todos foram para o campo de batalha, porém com muitos lideres todos queria ter protagonismo, e se eles terminassem vitoriosos provavelmente que liderou se tornaria o líder de todos os vilarejos, agora todos prontos para a batalha Naruto e Sasuke tem 2 opções, lutar de acordo com as orientações da Sakura ou cada um tentar individualmente lutar diretamente contra Orochimaru."
 
     document.getElementById("divResultado").appendChild(txt);
     txt.setAttribute("id", "result");
@@ -184,7 +184,7 @@ function fim(){
     var txt = document.createElement("p");
 
     txt.innerText =
-        "Como todos decidiram se juntar a Hinata, a estrategia dela de ficar em um ponto mais alto da colina e proximo a floresta deu vantagem para eles conseguirem cercar e surpreender o inimigo, perdendo alguns companheiros, porém obteram exito e conseguiram vencer o inimigo graças a estratégia de Hinata e o trabalho em equipe de todos os integrantes se destacando Naruto e Sasuke"
+        "Como todos decidiram se juntar a Sakura, a estrategia dela de ficar em um ponto mais alto da colina e proximo a floresta deu vantagem para eles conseguirem cercar e surpreender o inimigo, perdendo alguns companheiros, porém obteram exito e conseguiram vencer o inimigo graças a estratégia de Sakura e o trabalho em equipe de todos os integrantes se destacando Naruto e Sasuke"
 
     document.getElementById("divResultado").appendChild(txt);
     txt.setAttribute("id", "result");
