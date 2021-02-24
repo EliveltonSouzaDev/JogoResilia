@@ -86,7 +86,7 @@ function btnRestart(){
     teste3.innerText = "RESTART GAME";
     document.getElementById("btn-container").appendChild(teste3);
     teste3.addEventListener("click", function(){
-        onclick = window.location.href='https://eliveltonsouzadev.github.io/JogoResilia/';
+        onclick = href='https://eliveltonsouzadev.github.io/JogoResilia/';
     });
     teste3.setAttribute("id", "btn-2");
 }
